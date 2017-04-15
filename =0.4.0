@@ -37,7 +37,7 @@ npmdoc-grunt-concurrent@0.0.1 /home/travis/build/npmdoc/node-npmdoc-grunt-concur
   │ │ └── sprintf-js@1.0.3 
   │ └── esprima@2.7.3 
   ├─┬ minimatch@3.0.3 
-  │ └─┬ brace-expansion@1.1.6 
+  │ └─┬ brace-expansion@1.1.7 
   │   ├── balanced-match@0.4.2 
   │   └── concat-map@0.0.1 
   ├─┬ nopt@3.0.6 

@@ -1,11 +1,13 @@
 # api documentation for  [grunt-concurrent (v2.3.1)](https://github.com/sindresorhus/grunt-concurrent#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-concurrent.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-concurrent) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-concurrent.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-concurrent)
 #### Run grunt tasks concurrently
 
-[![NPM](https://nodei.co/npm/grunt-concurrent.png?downloads=true)](https://www.npmjs.com/package/grunt-concurrent)
+[![NPM](https://nodei.co/npm/grunt-concurrent.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-concurrent)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-concurrent/build/screen-capture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-grunt-concurrent_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-concurrent/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-concurrent/build/screenCapture.buildCi.browser.apidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-concurrent/build/apidoc.html)
 
-![package-listing](https://npmdoc.github.io/node-npmdoc-grunt-concurrent/build/screen-capture.npmPackageListing.svg)
+![npmPackageListing](https://npmdoc.github.io/node-npmdoc-grunt-concurrent/build/screenCapture.npmPackageListing.svg)
+
+![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-grunt-concurrent/build/screenCapture.npmPackageDependencyTree.svg)
 
 
 
@@ -16,7 +18,6 @@
 {
     "author": {
         "name": "Sindre Sorhus",
-        "email": "sindresorhus@gmail.com",
         "url": "sindresorhus.com"
     },
     "bugs": {
@@ -70,8 +71,7 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "sindresorhus",
-            "email": "sindresorhus@gmail.com"
+            "name": "sindresorhus"
         }
     ],
     "name": "grunt-concurrent",
@@ -79,7 +79,6 @@
     "peerDependencies": {
         "grunt": ">=0.4.0"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/sindresorhus/grunt-concurrent.git"
