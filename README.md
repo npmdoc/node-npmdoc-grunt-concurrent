@@ -1,9 +1,14 @@
-# api documentation for  [grunt-concurrent (v2.3.1)](https://github.com/sindresorhus/grunt-concurrent#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-concurrent.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-concurrent) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-concurrent.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-concurrent)
+# npmdoc-grunt-concurrent
+
+#### api documentation for  grunt-concurrent (v2.3.1)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-concurrent.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-concurrent) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-concurrent.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-concurrent)
+
 #### Run grunt tasks concurrently
 
 [![NPM](https://nodei.co/npm/grunt-concurrent.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-concurrent)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-concurrent/build/screenCapture.buildCi.browser.apidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-concurrent/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-grunt-concurrent/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-grunt-concurrent/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-concurrent/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-concurrent/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-grunt-concurrent/build/screenCapture.npmPackageListing.svg)
 
@@ -16,20 +21,42 @@
 ```json
 
 {
+    "name": "grunt-concurrent",
+    "version": "2.3.1",
+    "description": "Run grunt tasks concurrently",
+    "keywords": [
+        "gruntplugin",
+        "concurrent",
+        "parallel",
+        "simultaneous",
+        "optimize",
+        "speed",
+        "perf",
+        "performance",
+        "fast",
+        "faster"
+    ],
     "author": {
         "name": "Sindre Sorhus",
         "url": "sindresorhus.com"
     },
-    "bugs": {
-        "url": "https://github.com/sindresorhus/grunt-concurrent/issues"
+    "repository": "sindresorhus/grunt-concurrent",
+    "scripts": {
+        "test": "xo && grunt"
     },
+    "files": [
+        "tasks"
+    ],
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "license": "MIT",
     "dependencies": {
         "arrify": "^1.0.1",
         "async": "^1.2.1",
         "indent-string": "^2.0.0",
         "pad-stream": "^1.0.0"
     },
-    "description": "Run grunt tasks concurrently",
     "devDependencies": {
         "cross-spawn": "^2.0.0",
         "grunt": "^0.4.5",
@@ -43,62 +70,12 @@
         "supports-color": "^3.1.2",
         "xo": "*"
     },
-    "directories": {},
-    "dist": {
-        "shasum": "1e3db38ccef5a3da1195e61d631fe7e321344d23",
-        "tarball": "https://registry.npmjs.org/grunt-concurrent/-/grunt-concurrent-2.3.1.tgz"
-    },
-    "engines": {
-        "node": ">=0.10.0"
-    },
-    "files": [
-        "tasks"
-    ],
-    "gitHead": "0d76521f09919e97704c45868dc1e86ce1352537",
-    "homepage": "https://github.com/sindresorhus/grunt-concurrent#readme",
-    "keywords": [
-        "gruntplugin",
-        "concurrent",
-        "parallel",
-        "simultaneous",
-        "optimize",
-        "speed",
-        "perf",
-        "performance",
-        "fast",
-        "faster"
-    ],
-    "license": "MIT",
-    "maintainers": [
-        {
-            "name": "sindresorhus"
-        }
-    ],
-    "name": "grunt-concurrent",
-    "optionalDependencies": {},
     "peerDependencies": {
         "grunt": ">=0.4.0"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/sindresorhus/grunt-concurrent.git"
-    },
-    "scripts": {
-        "test": "xo && grunt"
-    },
-    "version": "2.3.1"
+    "bin": {}
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module grunt-concurrent](#apidoc.module.grunt-concurrent)
-
-
-
-# <a name="apidoc.module.grunt-concurrent"></a>[module grunt-concurrent](#apidoc.module.grunt-concurrent)
 
 
 
